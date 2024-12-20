@@ -1,0 +1,74 @@
+body{
+  background: rgb(255, 255, 255);
+  text-align: center;
+}
+.container{
+  background-color: rgb(118, 118, 118);
+  border-radius: 15px;
+  padding: 10px 20px;
+  width: 500px;
+  margin: 88%;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  text-align: center;
+  margin-top: 20px;
+  transition: transform 0.2s;
+  
+
+}
+h1{
+  font-size: x-large;
+  text-align: center;
+  color: aqua;
+}
+label{
+  font-size: 15px;
+  color: black;
+  display: block;
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 5px;
+  text-align: left;
+  font-weight: bold;
+}
+input{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: medium;
+}
+input[type="radio"]{
+  display: inline;
+  width: 10%;
+}
+select{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+textarea{
+  resize: none;
+  width: 98%;
+  min-height: 100px;
+  max-height: 150px;
+}
+button{
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 15px;
+  width: 40%;
+  font-size: 16px;
+}
+button:hover{
+  background-color: #3e8e41;
+}
